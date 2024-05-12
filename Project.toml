@@ -3,6 +3,12 @@ uuid = "760a1398-8f00-4da5-9475-268514cb6295"
 authors = ["okatsn <okatsn@gmail.com> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+GoogleDrive = "91feb7a0-3508-11ea-1e8e-afea2c1c9a19"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+
 [compat]
 julia = "1.9"
 
