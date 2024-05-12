@@ -1,8 +1,8 @@
 module OkReadGSheet
 
-using JSON, GoogleDrive
+using DataFrames, CSV, GoogleDrive, Suppressor
 include("readgsheet.jl")
-export readgsheet, get_data, get_GSID, set_data!
+export readgsheet
 
 
 end
