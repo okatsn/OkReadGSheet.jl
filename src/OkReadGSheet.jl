@@ -1,6 +1,6 @@
 module OkReadGSheet
 
-using DataFrames, CSV, GoogleDrive
+using DataFrames, CSV, GoogleDrive, Suppressor
 include("readgsheet.jl")
 export readgsheet
 

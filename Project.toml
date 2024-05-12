@@ -8,9 +8,15 @@ CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 GoogleDrive = "91feb7a0-3508-11ea-1e8e-afea2c1c9a19"
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+Suppressor = "fd094767-a336-5f1f-9728-57cf17d0bbfb"
 
 [compat]
-julia = "1.9"
+CSV = "0.10.14"
+DataFrames = "1.6.1"
+GoogleDrive = "0.2.0"
+JSON = "0.21.4"
+Suppressor = "0.2.7"
+julia = "1.10"
 
 [extras]
 CompatHelperLocal = "5224ae11-6099-4aaa-941d-3aab004bd678"
